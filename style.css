@@ -39,13 +39,6 @@ img {
     min-width: 300px;
 }
 
-/* Container */
-.button-container {
-    display: flex;  
-    justify-content: center;
-    gap: 10px; 
-    margin-top: 20px;
-}
 
 /* Stijl voor de knoppen */
 button {
@@ -57,6 +50,7 @@ button {
     border-radius: 5px;
     transition: 0.3s;
 }
+
 
 /* Hover-effect voor de knoppen */
 button:hover {

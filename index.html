@@ -13,25 +13,35 @@
     <main class="exercise-container">
         <h1>Sportschool Oefeningen</h1>
 
-        <img src="images/piccaa.jpg" alt="oefening" id="oefening-foto">
+        <img src="images/wachten.jpg" alt="oefening" id="oefening-foto">
 
         <div>
             <p>Vermoeidheid: <span id="vermoeidheid-level">0%</span></p>
         </div>
 
-        <div class="button-container">
-            <button onclick="verhoogVermoeidheid('deadlift')">Deadlift</button>
-            <button onclick="verhoogVermoeidheid('squat')">Squat</button>
-            <button onclick="verhoogVermoeidheid('pushup')">Push-up</button>
-            <button onclick="verhoogVermoeidheid('curls')">Curls</button>
-            <button onclick="verhoogVermoeidheid('shoulders')">Shoulders</button>
-            <button onclick="verhoogVermoeidheid('raises')">Raises</button>
+        <div id="oefening-info">
+            Klik op een oefening om te beginnen.
         </div>
 
-        <div id="oefening-info">Klik op een oefening om te beginnen.</div>
+        <div class="button-container">
+            <button data-oefening="deadlift">Deadlift</button>
+            <button data-oefening="squat">Squat</button>
+            <button data-oefening="pushup">Push-up</button>
+            <button data-oefening="curls">Curls</button>
+            <button data-oefening="shoulders">Shoulders</button>
+            <button data-oefening="raises">Raises</button>
+        </div>
+
+        <div class="extra-buttons">
+            <button id="oortjes-knop">▶️ Oortjes aan</button>
+        </div>
+
+        <audio id="gym-muziek-1" src="audio/gym-muziek1.mp3"></audio>
+        <audio id="gym-muziek-2" src="audio/gym-muziek2.mp3"></audio>
+        <audio id="gym-muziek-3" src="audio/gym-muziek3.mp3"></audio>
+        <audio id="gym-muziek-4" src="audio/gym-muziek4.mp3"></audio>
 
     </main>
-
 </body>
 
 </html>
